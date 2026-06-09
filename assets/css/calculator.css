@@ -1,0 +1,253 @@
+.voltage-loan-calculator {
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.voltage-calculator-card {
+    background: #f3f3f3;
+    border-radius: 18px;
+    padding: 36px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.voltage-calculator-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.voltage-calculator-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.voltage-calculator-header p {
+    margin: 8px 0 0;
+    font-size: 1.05rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.voltage-info-box {
+    margin-top: 12px;
+    padding: 14px 18px;
+    background: #efefef;
+    border-left: 4px solid #222;
+    border-radius: 8px;
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.voltage-info-box strong {
+    color: #444;
+    font-weight: 600;
+}
+
+.voltage-info-icon {
+    color: #1e73be;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.voltage-field {
+    margin-bottom: 24px;
+}
+
+.voltage-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #111;
+    font-size: 1rem;
+}
+
+.voltage-field small {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.voltage-field select,
+.voltage-field input[type="number"] {
+    width: 100%;
+    min-height: 52px;
+    padding: 13px 14px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 1rem;
+    color: #222;
+}
+
+.voltage-field select:focus,
+.voltage-field input[type="number"]:focus {
+    outline: 3px solid rgba(0, 0, 0, 0.18);
+    border-color: #222;
+}
+
+.voltage-field input[type="range"] {
+    width: 100%;
+}
+
+.voltage-radio-group {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.voltage-radio-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.voltage-radio-group input {
+    width: 18px;
+    height: 18px;
+}
+
+#voltage-calculate {
+    width: 100%;
+    min-height: 56px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#voltage-calculate:hover,
+#voltage-calculate:focus {
+    background: #000;
+    transform: translateY(-2px);
+}
+
+.voltage-result {
+    margin-top: 28px;
+    padding: 26px;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.voltage-result h3 {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.voltage-payment {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 10px 0 12px;
+    color: #222;
+}
+
+.voltage-payment span {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.voltage-summary-note {
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.voltage-breakdown {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 16px;
+}
+
+.voltage-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 0.98rem;
+}
+
+.voltage-row span {
+    color: #444;
+}
+
+.voltage-row strong {
+    color: #222;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.voltage-total {
+    margin-top: 6px;
+    padding-top: 14px;
+    border-top: 2px solid #222;
+    font-size: 1.05rem;
+}
+
+.voltage-financed {
+    font-size: 1.1rem;
+    font-weight: 800;
+    background: #f7f7f7;
+    margin-top: 8px;
+    padding: 14px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.voltage-disclaimer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .voltage-loan-calculator {
+        padding: 12px;
+    }
+    .voltage-calculator-card {
+        padding: 24px;
+    }
+    .voltage-calculator-header h2 {
+        font-size: 1.5rem;
+    }
+    .voltage-calculator-header p {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+    }
+    .voltage-radio-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .voltage-payment {
+        font-size: 1.8rem;
+    }
+    .voltage-row {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .voltage-row strong {
+        text-align: left;
+    }
+}
