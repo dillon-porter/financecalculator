@@ -14,10 +14,8 @@ The calculator was designed with a strong emphasis on **clarity and usability**,
 
 ## 🌐 Live Demo
 
-**View the calculator in action:**
-
-👉 https://shopvoltage.ca/#:~:text=also%20be%20available.-,VOLTAGE%20POWERSPORTS,FINANCING%20ESTIMATE%20CALCULATOR,-Choose%20a%20model
-
+**Try the live calculator:**  
+🔗 **[View Live Demo](https://shopvoltage.ca/#:~:text=also%20be%20available.-,VOLTAGE%20POWERSPORTS,FINANCING%20ESTIMATE%20CALCULATOR,-Choose%20a%20model)**
 
 ---
 
