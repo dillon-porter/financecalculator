@@ -12,6 +12,13 @@ The Voltage Loan Calculator allows customers to estimate financing payments for 
 
 The calculator was designed with a strong emphasis on **clarity and usability**, ensuring customers of all ages can easily understand how their estimated payment is calculated.
 
+## 🌐 Live Demo
+
+**View the calculator in action:**
+
+👉 https://shopvoltage.ca/#:~:text=also%20be%20available.-,VOLTAGE%20POWERSPORTS,FINANCING%20ESTIMATE%20CALCULATOR,-Choose%20a%20model
+
+
 ---
 
 ## Features
